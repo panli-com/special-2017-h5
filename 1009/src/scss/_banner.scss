@@ -1,0 +1,126 @@
+.banner {
+  height: 576px;
+  background: url(./img/banner.png) no-repeat center center;
+  background-size: 720px 576px;
+  margin-bottom: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  min-height: 100%;
+}
+
+.time {
+  height: 126px;
+  background: url(./img/time.png) no-repeat center center;
+  background-size: 670px 126px;
+  margin-bottom: 16px;
+}
+
+.one {
+  height: 708px;
+  background: url(./img/one.png) no-repeat center center;
+  background-size: 680px 708px;
+  position: relative;
+  a{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    top: 210px;
+  }
+}
+
+
+.floor{
+  width: 680px;
+  min-height: 600px;
+  margin: 0 auto;
+  background-color: #f24d9d;
+  padding-bottom: 20px; 
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px -10px 0px  #ea408d;
+  &-top{
+    height: 45px;
+  }
+  &-bottom{
+    height: 15px;
+  }
+
+  .title{
+    height: 100px;
+    background: url(./img/title.png) no-repeat center center;
+    background-size: 376px 73px;
+  }
+}
+
+
+
+.copyright{
+  color: #9c0f5d;
+  width: 680px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 32px;
+  text-align: right;
+}
+
+
+.shop{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ffa6d1;
+  min-height: 200px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  ul{
+    overflow: hidden;
+    clear: both;
+    padding-left: 16px;
+    margin-right: -20px;
+  }
+  li{
+    float: left;
+    width: 311px;
+    height: 400px;
+    margin-left: -6px;
+    margin-bottom: 10px;
+    a{
+      display: block;
+
+    }
+    img{
+      max-width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+
+.shape{
+  height: 73px;
+  width: 28px;
+  background: url(./img/shape.png) no-repeat center center;
+  background-size: 28px 73px;
+  position: absolute;
+  top: -30px;
+  &_1{
+    left: 34px;
+  }
+  &_2{
+    right: 34px;
+  }
+}
