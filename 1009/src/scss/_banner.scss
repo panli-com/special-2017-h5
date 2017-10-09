@@ -25,9 +25,9 @@ a {
 }
 
 .one {
-  height: 708px;
-  background: url(./img/one.png) no-repeat center center;
-  background-size: 680px 708px;
+  min-height: 708px;
+  // background: url(./img/one.png) no-repeat center center;
+  // background-size: 680px 708px;
   position: relative;
   a{
     position: absolute;
@@ -36,6 +36,11 @@ a {
     right: 0;
     bottom: 40px;
     top: 210px;
+  }
+  img{
+    width: 680px;
+    display: block;
+    margin: 0 auto;
   }
 }
 
