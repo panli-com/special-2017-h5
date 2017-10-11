@@ -36,6 +36,16 @@
     <section class="copyright">
         * 本活动最终解释权归Panli所有
     </section>
+    <script>
+     var oneSrc = document.getElementById("one-src").src + '?v'
+     var time = new Date().getTime()
+
+     var oneBox = document.getElementById("one-box")
+     var src = oneSrc + time 
+     var str = '<img src="'+ src +'" />'
+
+      oneBox.innerHTML = str
+    </script>
 </div>
 
 <script src="./data/shop.js"></script>

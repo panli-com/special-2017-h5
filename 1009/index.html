@@ -15,8 +15,8 @@
   <title>Panli代购</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <link rel="stylesheet" href="./build/css/535.css?v=1507527588546">
-  <script src="./build/css/js/app.js?v=1507527588546"></script>
+  <link rel="stylesheet" href="./build/css/535.css?v=1507689862478">
+  <script src="./build/css/js/app.js?v=1507689862478"></script>
 </head>
 <body>
 
@@ -56,6 +56,16 @@
     <section class="copyright">
         * 本活动最终解释权归Panli所有
     </section>
+    <script>
+     var oneSrc = document.getElementById("one-src").src + '?v'
+     var time = new Date().getTime()
+
+     var oneBox = document.getElementById("one-box")
+     var src = oneSrc + time 
+     var str = '<img src="'+ src +'" />'
+
+      oneBox.innerHTML = str
+    </script>
 </div>
 
 <script src="./data/shop.js"></script>
