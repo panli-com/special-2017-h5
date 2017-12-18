@@ -15,7 +15,8 @@
 .Lay-main-1,
 .Lay-main-2 {
   position: relative;
-  width: 691px;
+  width: 660px;
+  height: 623px;
   display: block;
   a {
     display: block;
@@ -35,19 +36,16 @@
 }
 
 .Lay-main-1 {
-  height: 421px;
-  .l-daijin {
-    width: 160px;
-    right: 30px;
-    top: 200px;
-  }
-  .l-kefu {
-    width: 160px;
-    left: 228px;
-    top: 247px;
-  }
+  // height: 421px;
+  // .l-daijin {
+  //   width: 160px;
+  //   right: 30px;
+  //   top: 200px;
+  // }
+  // .l-kefu {
+  //   width: 160px;
+  //   left: 228px;
+  //   top: 247px;
+  // }
 }
 
-.Lay-main-2 {
-  height: 462px;
-}
