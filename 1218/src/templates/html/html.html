@@ -1,0 +1,116 @@
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="dns-prefetch" href="//sf.panli.com">
+    <link href="http://sf.panli.com/Ued/pc/common/images/favicon.ico?v=2016.07" type="image/ico" rel="shortcut icon">
+    <title>Panli代购</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./build/css/535.css?v=1507526659729">
+    <script src="./build/css/js/app.js"></script>
+</head>
+
+<body>
+
+    <div class="app bgcolor m-auto">
+        <section class="banner">&nbsp;
+        </section>
+        <section class="time">&nbsp;
+        </section>
+        <section class="one">
+            <div class="hide">
+                <img id="one-src" src="./build/css/img/one.png" alt="">
+            </div>
+            <div id="one-box">&nbsp;</div>
+            <a href="http://m.taobao.com/" class="one-href">&nbsp;</a>
+        </section>
+        <section class="floor-top">&nbsp;
+        </section>
+        <section class="floor" id="floor_1">
+            <div class="shape shape_1">&nbsp;</div>
+            <div class="shape shape_2">&nbsp;</div>
+            <div class="title">&nbsp;</div>
+            <div class="shop">
+                <ul class="">
+                    <li class="li_1">
+                        <a href="http://m.taobao.com/" target="_black" title="淘宝">
+                            <img src="./build/css/img/shop/1.png" alt="淘宝">
+                        </a>
+                    </li>
+                    <li class="li_2">
+                        <a href="http://www.tmall.com/" target="_black" title="天猫">
+                            <img src="./build/css/img/shop/2.png" alt="天猫">
+                        </a>
+                    </li>
+                    <li class="li_3">
+                        <a href="http://m.jd.com" target="_black" title="京东">
+                            <img src="./build/css/img/shop/3.png" alt="京东">
+                        </a>
+                    </li>
+                    <li class="li_4">
+                        <a href="http://m.shishangqiyi.com/" target="_black" title="时尚起义">
+                            <img src="./build/css/img/shop/4.png" alt="时尚起义">
+                        </a>
+                    </li>
+                    <li class="li_5">
+                        <a href="http://m.meilishuo.com/" target="_black" title="美丽说">
+                            <img src="./build/css/img/shop/5.png" alt="美丽说">
+                        </a>
+                    </li>
+                    <li class="li_6">
+                        <a href="http://m.mogujie.com" target="_black" title="蘑菇街">
+                            <img src="./build/css/img/shop/6.png" alt="蘑菇街">
+                        </a>
+                    </li>
+                    <li class="li_7">
+                        <a href="https://chaoshi.tmall.com/" target="_black" title="天猫超市">
+                            <img src="./build/css/img/shop/7.png" alt="天猫超市">
+                        </a>
+                    </li>
+                    <li class="li_8">
+                        <a href="http://m.yhd.com" target="_black" title="1号店">
+                            <img src="./build/css/img/shop/8.png" alt="1号店">
+                        </a>
+                    </li>
+                    <li class="li_9">
+                        <a href="http://m.dangdang.com" target="_black" title="当当">
+                            <img src="./build/css/img/shop/9.png" alt="当当">
+                        </a>
+                    </li>
+                    <li class="li_10">
+                        <a href="http://m.amazon.cn" target="_black" title="亚马逊">
+                            <img src="./build/css/img/shop/10.png" alt="亚马逊">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="floor-bottom">&nbsp;
+        </section>
+        <section class="copyright">
+            * 本活动最终解释权归Panli所有
+        </section>
+    </div>
+
+
+</body>
+<script>
+    var oneSrc = document.getElementById("one-src").src + '?v'
+    var time = new Date().getTime()
+
+    var oneBox = document.getElementById("one-box")
+    var src = oneSrc + time 
+    var str = '<img src="'+ src +'" />'
+
+     oneBox.innerHTML = str
+   </script>
+</html>

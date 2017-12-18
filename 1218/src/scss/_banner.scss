@@ -1,0 +1,143 @@
+.banner {
+  height: 500px;
+  background: url(./img/banner.png) no-repeat center center;
+  background-size: 720px 500px;
+  margin-bottom: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  min-height: 100%;
+}
+
+
+
+.nav-box{
+  position: relative;
+  ul{
+    clear: both;
+    overflow: hidden;
+    background: #e83138;
+  }
+  li{
+    float: left;
+    &.on{
+      a{
+        background-color: #af0c13;
+      }
+    }
+  }
+  a{
+    display: inline-block;
+    font-size: 30px;
+    padding: 28px 40px;
+  }
+}
+
+
+.floor{
+  padding-bottom: 50px;
+  display: none;
+  &-wrap{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .title{
+    height: 44px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 578px 34px;
+  }
+
+  &_1{
+    .title{
+      background-image: url("./img/t-1.png");
+      background-size: 578px 44px;
+    }
+  }
+
+  &_2{
+    .title{
+      background-image: url("./img/t-2.png");
+    }
+  }
+
+  &_3{
+    .title{
+      background-image: url("./img/t-3.png");
+    }
+  }
+
+  &_4{
+    .title{
+      background-image: url("./img/t-4.png");
+    }
+  }
+
+  .list{
+    padding-top: 30px;
+    width: 660px;
+    margin: 0 auto;
+    ul{
+      clear: both;
+      overflow: hidden;
+      width: 110%;
+    }
+    li{
+      float: left;
+      margin-bottom: 10px;
+      margin-right: 8px;
+      img{
+        display: block;
+        width: 325px;
+        height: 418px;
+      }
+    }
+  }
+}
+
+
+.shop{
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 200px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  ul{
+    overflow: hidden;
+    clear: both;
+    padding-left: 16px;
+    margin-right: -20px;
+  }
+  li{
+    float: left;
+    width: 311px;
+    height: 400px;
+    margin-left: -6px;
+    margin-bottom: 10px;
+    background: url(./img/loader.svg) no-repeat center center;
+    background-size: 80px 80px;
+    a{
+      display: block;
+
+    }
+    img{
+      max-width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
