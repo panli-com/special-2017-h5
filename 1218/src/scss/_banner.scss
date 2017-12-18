@@ -17,86 +17,85 @@ a {
   min-height: 100%;
 }
 
-
-
-.nav-box{
+.nav-box {
   position: relative;
-  ul{
+  ul {
     clear: both;
     overflow: hidden;
     background: #e83138;
   }
-  li{
+  li {
     float: left;
-    &.on{
-      a{
+    &:first-child {
+      padding-left: 20px;
+      a {
+        background: url("./img/on.png") no-repeat center left;
+        background-size: 33px 32px;
+      }
+    }
+    &.on {
+      background-color: #af0c13;
+      a {
         background-color: #af0c13;
       }
     }
   }
-  a{
+  a {
     display: inline-block;
     font-size: 30px;
     padding: 28px 40px;
   }
 }
 
-
-.floor{
+.floor {
   padding-bottom: 50px;
   display: none;
-  &-wrap{
+  &-wrap {
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
-  .title{
+  .title {
     height: 44px;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 578px 34px;
   }
-
-  &_1{
-    .title{
+  &_1 {
+    .title {
       background-image: url("./img/t-1.png");
       background-size: 578px 44px;
     }
   }
-
-  &_2{
-    .title{
+  &_2 {
+    .title {
       background-image: url("./img/t-2.png");
     }
   }
-
-  &_3{
-    .title{
+  &_3 {
+    .title {
       background-image: url("./img/t-3.png");
     }
   }
-
-  &_4{
-    .title{
+  &_4 {
+    .title {
       background-image: url("./img/t-4.png");
     }
   }
-
-  .list{
+  .list {
     padding-top: 30px;
     width: 660px;
     margin: 0 auto;
-    ul{
+    ul {
       clear: both;
       overflow: hidden;
       width: 110%;
     }
-    li{
+    li {
       float: left;
       margin-bottom: 10px;
       margin-right: 8px;
-      img{
+      img {
         display: block;
         width: 325px;
         height: 418px;
@@ -105,8 +104,7 @@ a {
   }
 }
 
-
-.shop{
+.shop {
   margin-left: 20px;
   margin-right: 20px;
   min-height: 200px;
@@ -114,13 +112,13 @@ a {
   padding-top: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  ul{
+  ul {
     overflow: hidden;
     clear: both;
     padding-left: 16px;
     margin-right: -20px;
   }
-  li{
+  li {
     float: left;
     width: 311px;
     height: 400px;
@@ -128,11 +126,10 @@ a {
     margin-bottom: 10px;
     background: url(./img/loader.svg) no-repeat center center;
     background-size: 80px 80px;
-    a{
+    a {
       display: block;
-
     }
-    img{
+    img {
       max-width: 100%;
       display: block;
       margin: 0;
@@ -140,4 +137,3 @@ a {
     }
   }
 }
-

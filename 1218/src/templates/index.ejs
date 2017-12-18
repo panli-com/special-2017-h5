@@ -1,57 +1,74 @@
+
 <% include ../../../templates/head.ejs %>
 
-<div class="app bgcolor m-auto">
-    <section class="banner">&nbsp;
-    </section>
-    <section class="time">&nbsp;
-    </section>
-    <section class="one">
-        <div class="hide">
-            <img id="one-src" src="./build/css/img/one.png" alt="">
-        </div>
-        <div id="one-box">&nbsp;
-        </div>
-        <a href="http://m.taobao.com/" class="">&nbsp;</a>
-    </section>
-    <section class="floor-top">&nbsp;
-    </section>
-    <section class="floor" id="floor_1">
-        <div class="shape shape_1">&nbsp;</div>
-        <div class="shape shape_2">&nbsp;</div>
-        <div class="title"></div>
-        <div class="shop">
-            <ul class="">
-                <li>
-                    <a href="">
-                        <img src="./build/css/img/shop/1.png" alt="">
+    <div class="app bgcolor m-auto">
+        <section class="banner">&nbsp;
+        </section>
+        <nav class="nav-box">
+            <ul>
+                <li class="on">
+                    <a href="javascript:void(0);">
+                        旺财运
                     </a>
                 </li>
-                <li>                       
+                <li>
+                    <a href="javascript:void(0);">
+                        旺桃花
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        旺学业
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        旺健康
+                    </a>
+                </li>
             </ul>
+        </nav>
+        <div class="floor-wrap">
+            <section class="floor floor_1" id="floor_1" style="display:block">
+                <div class="title">&nbsp;</div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./build/css/img/list/1-1.png" alt="" srcset="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="floor floor_2" id="floor_2">
+                <div class="title">&nbsp;</div>
+                <div class="list">
+                    <ul>
+                    </ul>
+                </div>
+            </section>
+            <section class="floor floor_3" id="floor_3">
+                <div class="title">&nbsp;</div>
+                <div class="list">
+                    <ul>
+                    </ul>
+                </div>
+            </section>
+            <section class="floor floor_4" id="floor_4">
+                <div class="title">&nbsp;</div>
+                <div class="list">
+                    <ul>
+                    </ul>
+                </div>
+            </section>
         </div>
+    </div>
 
-    </section>
-    <section class="floor-bottom">&nbsp;
-    </section>
-    <section class="copyright">
-        * 本活动最终解释权归Panli所有
-    </section>
-    <script>
-     var oneSrc = document.getElementById("one-src").src + '?v'
-     var time = new Date().getTime()
-
-     var oneBox = document.getElementById("one-box")
-     var src = oneSrc + time 
-     var str = '<img src="'+ src +'" />'
-
-      oneBox.innerHTML = str
-    </script>
-</div>
-
-<script src="./data/shop.js"></script>
+</body>
+<script src="./data/list.js"></script>
 <script src="./data/app.js"></script>
 <script>
-    FloorShopList(shop)
+    FloorList(list)
 </script>
-
-<% include ../../../templates/footer.ejs %>
+</html>
